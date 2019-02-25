@@ -8,10 +8,10 @@
 
 #include <stdio.h>
 //declaring variables
-double seatPrices[15];       //an array to hold the seat prices per row
-char theater[15][30];        //an array to represent the theater
-double ticketSalesTotal =0;     //total sales from all tickets
-int soldSeats =0;              //number of seats sold
+double seatPrices[15];           //an array to hold the seat prices per row
+char theater[15][30];           //an array to represent the theater
+double ticketSalesTotal =0;    //total sales from all tickets
+int soldSeats =0;             //number of seats sold
 int row;
 int column;
 int columnTwo;
@@ -300,7 +300,7 @@ int seatsOpenPerRow(){
 
 		}
 
-		printf("There are %d seats open in row %d.\n",temp, x);
+		printf("There are %d seats open in row %d.\n",temp, x+1);
 	}
 
 
